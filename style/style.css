@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    background-image: url('/images/556730.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.central{
+    background-color: blue;
+    height:65vh;
+    width: 40vh;
+    border-radius: 25px;
+    display: flex;
+    margin-top: 21vh;
+    margin-left: 42%;
+    justify-content: center;
+    flex-direction: column;
+}
+
+button{    
+    padding: 20px;
+    color: black;
+    border-radius: 10px;
+    background-color: lightgray;
+    cursor: pointer;
+}
+.painel{
+    background-color: aliceblue;
+    height: 35px;
+    width: 37vh;
+    display: flex;
+    border-radius: 25px;
+    margin-left: 3%;
+    margin-top: px;
+}
+
+#apagar{
+    margin-top: 10px;
+}
